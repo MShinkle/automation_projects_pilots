@@ -1,4 +1,4 @@
-# Notebook to Python Converter
+# Example RepoMix Usage
 
 This directory contains two things: 1) a script for converting Jupyter notebooks (`.ipynb` files) to Python (`.py`) files in place, preserving the original directory structure, and 2) a repomix config json tweaked for our application. 
 
