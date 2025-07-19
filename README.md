@@ -1,1 +1,3 @@
-# automation_projects_pilots
+# Concrete Projects for Improving Current Technical Safety Research Automation
+
+This is a collection of materials related to the AI Alignment Forum/LessWrong post, Concrete Projects for Improving Current Technical Safety Research Automation [TODO: add link]. It primarily contains basic pilot examples of projects that we suggest could improve automation of technical AI safety research. These are designed as optional starting points for these projects--feel free to build on them directly if you find them useful.
