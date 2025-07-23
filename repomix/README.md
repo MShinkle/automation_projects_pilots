@@ -9,7 +9,7 @@ First convert notebooks in a directory:
 python move_and_convert_files.py [package_directory]
 ```
 
-This will allow repomix to add them into the summary file without all the ipynb formatting and outputs. Next, compile a summary of all the .py, .md, and .txt files in the repo into a single output file via repomix:
+This will allow repomix to add them into the summary file without all the ipynb formatting and outputs. Next, compile a summary of all the .py, .md, and .txt files in the repo into a single output file via repomix. NOTE: IT IS CRITICAL THAT THIS IS RUN FROM THE SAME DIRECTORY AS YOUR `repomix.config.json` FILE.
 
 ```bash
 npx repomix [package_directory] -o [package_name].txt
@@ -23,7 +23,7 @@ npx repomix [package_directory] -o [package_name].txt
 
 ## Configuration
 
-The branch also includes a `repomix.config.json` file that can be used to configure how repomix processes the codebase. Key configuration options include:
+The directory includes a `repomix.config.json` file that can be used to configure how repomix processes the codebase. Key configuration options include:
 
 - `output.style`: Output format (default: "plain")
 - `output.compress`: Whether to remove empty lines and comments

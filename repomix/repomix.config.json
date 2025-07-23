@@ -22,7 +22,8 @@
     "useDefaultPatterns": false,
     "customPatterns": [
       "**/.git/**",
-      "**/.github/**"
+      "**/.github/**",
+      "CHANGELOG.md"
     ]
   },
   "security": {
