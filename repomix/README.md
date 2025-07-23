@@ -12,7 +12,7 @@ python move_and_convert_files.py ./my_directory
 This will allow repomix to add them into the summary file without all the ipynb formatting and outputs. Next, compile a summary of all the .py, .md, and .txt files in the repo into a single output file via repomix:
 
 ```bash
-npx repomix source_code/my_package -o docs/my_package/code_summary.txt
+npx repomix source_code/my_package -o docs/my_package.txt
 ```
 
 ## Requirements
