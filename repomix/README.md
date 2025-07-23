@@ -6,13 +6,13 @@ This directory contains two things: 1) a script for converting Jupyter notebooks
 
 First convert notebooks in a directory:
 ```bash
-python move_and_convert_files.py ./my_directory
+python move_and_convert_files.py [package_directory]
 ```
 
 This will allow repomix to add them into the summary file without all the ipynb formatting and outputs. Next, compile a summary of all the .py, .md, and .txt files in the repo into a single output file via repomix:
 
 ```bash
-npx repomix source_code/my_package -o docs/my_package.txt
+npx repomix [package_directory] -o [package_name].txt
 ```
 
 ## Requirements
