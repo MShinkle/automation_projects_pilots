@@ -1,6 +1,6 @@
 {
   "output": {
-    "filePath": "code_summary.txt",
+    "filePath": "package_summary.txt",
     "style": "plain",
     "compress": false,
     "removeComments": false,
