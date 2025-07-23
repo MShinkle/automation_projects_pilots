@@ -6,7 +6,7 @@
     "removeComments": false,
     "fileSummary": true,
     "directoryStructure": true,
-    "removeEmptyLines": false,
+    "removeEmptyLines": true,
     "topFilesLength": 5,
     "showLineNumbers": false,
     "includeEmptyDirectories": true,
